@@ -1,17 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "hey zee nun",
-  "author": "",
-  "website": "",
+  "wake_word": "hey xenon",
+  "author": "zwater",
+  "website": "https://github.com/zwater/wakeword",
   "model": "hey_xenon.tflite",
-  "trained_languages": [
-    "en"
-  ],
+  "trained_languages": ["en"],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.5,
+    "probability_cutoff": 0.8,
     "feature_step_size": 10,
-    "sliding_window_size": 5,
+    "sliding_window_size": 3,
     "tensor_arena_size": 30000,
     "minimum_esphome_version": "2024.7.0"
   }
